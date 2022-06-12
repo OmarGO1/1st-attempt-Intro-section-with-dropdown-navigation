@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="jquery_rotate.js"></script>
+  <script src="script.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <aside id="bar">
+    <div id="close_btn">
+      <object data="images/icon-close-menu.svg"></object>
+    </div>
+    <div id="mobile_container">
+      <div class="options"><a id="features2">Features</a><object id="features2_arrow"
+          data="images/icon-arrow-down.svg"></object>
+        <ul class="list_inside3">
+          <li><object data="images/icon-todo.svg"></object>Todo list</li>
+          <li><object data="images/icon-calendar.svg"></object> Calendar</li>
+          <li><object data="images/icon-reminders.svg"></object> Reminders</li>
+          <li><object data="images/icon-planning.svg"></object> Planning</li>
+        </ul>
+      </div>
+      <div class="options">
+        <a id="company2">Company</a> <object id="company2_arrow" data="images/icon-arrow-down.svg"></object>
+        <ul class="list_inside4">
+          <li>History</li>
+          <li>Our team</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+      <div class="options"><a>Careers</a></div>
+      <div class="options"><a>About</a></div>
+      <div id="login2"><a>Login</a></div>
+      <div id="register2"><a>Register</a></div>
+    </div>
+
+
+
+
+  </aside>
+  <div id="container">
+    <div id="menu_mobile" style="display:none;">
+      <object data="images/icon-menu.svg"></object>
+    </div>
+    <header>
+      <div id="logo">
+        <object data="images/logo.svg"></object>
+      </div>
+
+      <div id="menu">
+        <div><a id="features">Features</a><object id="features_arrow" data="images/icon-arrow-down.svg"></object></div>
+        <div><a id="company">Company</a> <object id="company_arrow" data="images/icon-arrow-down.svg"></object></div>
+        <div><a>Careers</a></div>
+        <div><a>About</a></div>
+        <div class="user_options" id="login"><a>Login</a></div>
+        <div id="register"><a>Register</a></div>
+      </div>
+      <ul class="list_inside">
+        <li><object data="images/icon-todo.svg"></object>Todo list</li>
+        <li><object data="images/icon-calendar.svg"></object> Calendar</li>
+        <li><object data="images/icon-reminders.svg"></object> Reminders</li>
+        <li><object data="images/icon-planning.svg"></object> Planning</li>
+      </ul>
+      <ul class="list_inside2">
+        <li>History</li>
+        <li>Our team</li>
+        <li>Blog</li>
+      </ul>
+    </header>
+
+    <div class="clearfix"></div>
+    <div id="content">
+      <div id="panel">
+        <h1>Make remote work</h1>
+        <p id="txt">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button id="more">Learn more</button>
+        <div id="clients">
+          <object data="images/client-databiz.svg"></object>
+          <object data="images/client-audiophile.svg"></object>
+          <object data="images/client-meet.svg"></object>
+          <object data="images/client-maker.svg"></object>
+        </div>
+      </div>
+      <div id="second_panel">
+        <img src="images/image-hero-desktop.png" />
+      </div>
+    </div>
+
+  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Omar García Ortiz</a>.
+    </div>
+  </footer>
+
+</body>
+
+</html>
